@@ -10,6 +10,7 @@ import Home from './pages/Home';
 
 function App() {
   return (
+    
       <Router>
          <Navbar/>
         <Switch>
@@ -17,6 +18,10 @@ function App() {
           <Route path='/contact' component ={Contact} />
           <Route path='/' component ={Home} />
         </Switch>
+        
+        
+      
+   
         
         
       </Router>

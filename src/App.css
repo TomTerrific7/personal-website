@@ -1,19 +1,17 @@
-.App {
-  text-align: center;
-  color: black;
-}
+
 
 .homelogo {
+  
   display: inline-block;
     text-align: left;
   
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.emailform {
+  background-color: white;
+  text-align: center;
 }
+
 
 .App-header {
   background-color: #282c34;

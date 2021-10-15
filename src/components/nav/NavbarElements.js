@@ -13,7 +13,7 @@ export const Nav = styled.nav`
 `;
 export const NavLogo = styled(Link)`
 display: inline-block;
-
+text-align: left;
 padding:  rem;
 height: 200px;
 
