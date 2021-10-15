@@ -4,16 +4,21 @@
 .homelogo { 
   display: inline-block;
   align-items: left; 
+  
 }
 .emailform {
   height: 100vh ;
   background: linear-gradient(#74EBD5, #9FACE6);
-  text-align: center;
-  
+  text-align: center; 
 }
 .homepage {
-  text-align: center;
-  
+  position:relative;
+  padding-left: 425px;
+  text-align: left;
+  background: linear-gradient(#74EBD5, #9FACE6); 
+}
+.br{
+  background: linear-gradient(#74EBD5, #9FACE6);
 }
 
 

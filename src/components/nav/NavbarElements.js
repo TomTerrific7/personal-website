@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
     background:#74EBD5;
-    height: 85px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,6 +16,7 @@ display: inline-block;
 text-align: left;
 padding:  rem;
 height: 200px;
+
 
 `;
 
@@ -53,6 +54,7 @@ export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   margin-right: -24px;
+  
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -63,6 +65,7 @@ export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
   margin-right: 24px;
+  
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -71,7 +74,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
-  background: transparent;
+  background: linear-gradient(#74EBD5, #9FACE6);
   padding: 10px 22px;
   color: black;
   outline: none;
