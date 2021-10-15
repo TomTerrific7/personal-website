@@ -11,6 +11,11 @@
   background-color: white;
   text-align: center;
 }
+.homepage {
+  text-align: center;
+  font-family: "Courier New", monospace;
+  font-size: x-large;
+}
 
 
 .App-header {

@@ -1,18 +1,33 @@
 import React from 'react';
-import background from "./background.jpg"
+import {Button, Typography} from '@material-ui/core';
+import {makeStyles} from '@material-ui/core/styles';
 
-import '../App.css'
 
-const Home = () => {
-  return (    
-    <div style={{
-      backgroundImage: "url(/background.jpg)",
-      height: "300px",
-      backgroundRepeat: "no-repeat"
-    }} >
-      
+
+const useStyles = makeStyles({
+  root: {
+    height: "100vh",
+    background: "linear-gradient(#ff9800 30%, #ffc107 90%)"
+    
+  }
+  
+ 
+});
+
+export default function Home() {
+  const classes = useStyles();
+ 
+  return (
+    
+    <div className={classes.root}>
+      <Typography variant="h1">Hi, I'm Dilan. I'm a software developer.</Typography>
     </div>
-  );
-};
+    
+    
+    
+  )
+  
+}
 
-export default Home;
+
+

@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import TextField from '@material-ui/core/TextField';
 import TextareaAutosize from '@mui/material/TextareaAutosize';
+import { Button } from '@material-ui/core';
 require('dotenv').config()
 
 export const Contact = () => {
@@ -59,7 +60,9 @@ export const Contact = () => {
   style={{ width: 300 }}
 />
 <br/>
-      <input type="submit" value="Send" />
+      <Button color="primary" type="submit" value="Send">
+        Submit
+      </Button>
     </form>
     </div>
   );
