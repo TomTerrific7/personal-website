@@ -1,4 +1,6 @@
 import React from 'react';
+import logo from './signature1.png'
+import {Link} from 'react-router-dom';
 import {
     Nav,
     NavLogo,
@@ -12,17 +14,18 @@ import {
 const Navbar = () => {
     return (
         <>
-        <Nav>
-            <NavLink to="/" >
-           {/* <img src={logo} alt="HTML5 Icon" width="130" height="90"></img> */}
+        
+      <Nav>
+      <NavLogo to="/">
+      <img src={logo} width="440" height="250" class="homelogo"></img>
+            </NavLogo>
            <Bars />
-            </NavLink>
             <NavMenu>
                 <NavLink to="/" activestyle>
                     Home
                 </NavLink>
                 <NavLink to="/about" activestyle>
-                    About Me
+                    About
                 </NavLink>
                 <NavLink to="/services" activestyle>
                     Services
@@ -31,7 +34,7 @@ const Navbar = () => {
                     Projects
                 </NavLink>
                 <NavLink to="/contact" activestyle>
-                    Contact Me
+                    Contact
                 </NavLink>
                 <NavBtn>
                     <NavBtnLink to="/sign-up">Sign Up</NavBtnLink>                
