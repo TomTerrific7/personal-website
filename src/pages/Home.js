@@ -1,7 +1,8 @@
 import React from 'react';
 import {Button, Typography, ThemeProvider, createTheme, Container} from '@material-ui/core';
-import Background from '../themes/Background';
+
 import {makeStyles} from '@material-ui/core/styles';
+import { FaThinkPeaks } from 'react-icons/fa';
 
 const theme = createTheme({
   palette: {
@@ -16,18 +17,20 @@ const theme = createTheme({
   typography: {
     
     fontFamily: 'Noto Sans Mono',
-    fontSize: 28,
-    fontWightLight: 400,
-    fontWightLight:500,
-    fontWightLight: 600,
-    fontWightLight: 700,
+    fontSize: 18,
+    fontWeightLight: 400,
+    fontWeightRegular:500,
+    fontWeightMedium: 600,
+    fontWeightBold: 700,
     
+    h3: {
+      fontFamily: 'Source Code Pro',
+      fontWeightLight: 200,
+      fontSize:14,
+    }
   },
-  root: {
-    height: "100vh",
-    background: "linear-gradient(#ff9800 30%, #ffc107 90%)"
-    
-  }
+  
+ 
   
  
 })
@@ -35,7 +38,7 @@ const theme = createTheme({
 const useStyles = makeStyles((theme) => ({
   root: {
     height: "100vh",
-    background: "linear-gradient(#ff9800 30%, #ffc107 90%)"
+    background: "linear-gradient(#74EBD5, #9FACE6)"
     
   }
   
@@ -56,8 +59,9 @@ function Home() {
           
           <br/>
           <Typography>
-        <h1>Hi, I'm Dilan. I'm a software developer</h1>
+        <h1>Hi, I'm Dilan.<br/> I'm a software developer.</h1>
         </Typography>
+        <Typography variant="h3"> Hi</Typography>
         
       
       </ThemeProvider>

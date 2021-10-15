@@ -51,7 +51,7 @@ export const Contact = () => {
                name="user_email"
               
             />
-            <br/>
+            <br/><br/>
             <TextareaAutosize
   aria-label="minimum height"
   minRows={10}

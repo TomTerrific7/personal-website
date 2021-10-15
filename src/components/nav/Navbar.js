@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './signature1.png'
+import logo from './newLogo.png'
 import {Link} from 'react-router-dom';
 import {
     Nav,
@@ -17,7 +17,7 @@ const Navbar = () => {
         
       <Nav>
       <NavLogo to="/">
-      <img src={logo} width="440" height="250" class="homelogo"></img>
+      <img src={logo} width="390" height="230" class="homelogo"></img>
             </NavLogo>
            <Bars />
             <NavMenu>
