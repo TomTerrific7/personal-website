@@ -8,15 +8,25 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 
 
+
+
+
+
 function App() {
   return (
     
+    
+      
       <Router>
          <Navbar/>
+         <br/><br/>
+         
         <Switch>
+        
           <Route path='/about' component ={About} />
           <Route path='/contact' component ={Contact} />
           <Route path='/' component ={Home} />
+          
         </Switch>
         
         
@@ -25,6 +35,8 @@ function App() {
         
         
       </Router>
+      
+      
    
   );
 }

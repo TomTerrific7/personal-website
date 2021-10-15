@@ -1,7 +1,8 @@
 import React from 'react';
-import {Button, Typography, ThemeProvider, createTheme, Container} from '@material-ui/core';
-import Background from '../themes/Background';
+import {Button, Typography} from '@material-ui/core';
 import {makeStyles} from '@material-ui/core/styles';
+import Home from '../pages/Home';
+import {ThemeProvider, createTheme} from '@material-ui/core';
 
 const theme = createTheme({
   palette: {
@@ -16,7 +17,7 @@ const theme = createTheme({
   typography: {
     
     fontFamily: 'Noto Sans Mono',
-    fontSize: 28,
+    fontSize: 64,
     fontWightLight: 400,
     fontWightLight:500,
     fontWightLight: 600,
@@ -42,34 +43,17 @@ const useStyles = makeStyles((theme) => ({
  
 }));
 
-
-function Home() {
+export default function Background() {
   const classes = useStyles();
-  
  
   return (
-    <div className="homepage">
+    
     <div className={classes.root}>
       
-    
-        <ThemeProvider theme={theme}>
-          
-          <br/>
-          <Typography>
-        <h1>Hi, I'm Dilan. I'm a software developer</h1>
-        </Typography>
-        
-      
-      </ThemeProvider>
-      </div>
-      </div>
+    </div>
     
     
     
   )
   
 }
-export default Home;
-
-
-
