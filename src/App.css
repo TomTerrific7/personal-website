@@ -6,7 +6,7 @@
   height: 100vh ;
   background: linear-gradient(#74EBD5, #9FACE6);
   text-align: center; 
-  font-family: 'Source Code Pro';
+  font-Family: 'Noto Sans Mono';
   font-weight: 200 ;
    font-size: 22;   
       
@@ -19,8 +19,11 @@
   background: linear-gradient(#74EBD5, #9FACE6);
 }
 .about{
-  height: 100vh ;
+  font-Family: 'Noto Sans Mono'; 
+  vertical-align: text-top;             
   background: linear-gradient(#74EBD5, #9FACE6);
+ 
+                
 }
 .projects{
   height: 100vh ;

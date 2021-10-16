@@ -6,7 +6,7 @@ const Projects = () => {
             style={{
                 display: 'flex',
                 justifyContent: 'center',
-                alignItems: 'center',
+                verticalAlign: 'text-top',
                 height: '100vh'
                 
             }}
