@@ -7,6 +7,9 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Services from './pages/Services';
 import Projects from './pages/Projects';
+import Particles from 'react-particles-js';
+import particlesConfig from './particlesConfig';
+
 
 
 
@@ -14,12 +17,15 @@ import Projects from './pages/Projects';
 
 function App() {
   return (
-    <Router>
-         <Navbar/>
-         
-         
-        <Switch>
-        
+
+    
+    
+    <Router class="App" style={{ position: 'relative', overflow: "hidden"}}>
+    <div style={{ position: 'absolute'}}>
+      <Particles height="100vh" width="100vw" params={particlesConfig} />
+    </div>
+      <Navbar/>
+         <Switch>
           <Route path='/about' component ={About} />
           <Route path='/services' component ={Services} />
           <Route path='/projects' component ={Projects} />
@@ -36,7 +42,8 @@ function App() {
       </Router>
       
       
-   
+      
+     
   );
 }
 

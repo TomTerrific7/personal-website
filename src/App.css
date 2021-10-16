@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 
 
+
 .emailform {
   height: 100vh ;
   background: linear-gradient(#74EBD5, #9FACE6);
@@ -31,7 +32,7 @@
 }
 .homepage {
   position:relative;
-  padding-left: 425px;
+  padding-left: 75px;
   text-align: left;
   background: linear-gradient(#74EBD5 1%, #9FACE6); 
 }

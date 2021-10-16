@@ -1,6 +1,7 @@
 import React from 'react';
 import { Typography, ThemeProvider, createTheme} from '@material-ui/core';
-
+import Particles from 'react-particles-js';
+import particlesConfig from '../particlesConfig';
 import {makeStyles} from '@material-ui/core/styles';
 
 
@@ -51,13 +52,21 @@ function Home() {
   
  
   return (
-    <div className="homepage">
+    
+    
+    
+      <div class="homepage" style={{ position: 'relative', overflow: "hidden"}}>
+      <div style={{ position: 'absolute'}}>
+        <Particles height="100vh" width="100vw" params={particlesConfig} />
+      </div>
     <div className={classes.root}>
-      
+    
     
         <ThemeProvider theme={theme}>
+        
           
           <br />
+          
           
           <Typography>
         <h1>Hi, I'm Dilan.<br/> I'm a software developer.</h1>
@@ -69,8 +78,9 @@ function Home() {
       </ThemeProvider>
       </div>
       </div>
+     
     
-    
+     
     
   )
   
