@@ -1,6 +1,11 @@
 import React from 'react';
 import logo from './newLogo.png'
-import {Link} from 'react-router-dom';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import IconButton from '@material-ui/core/IconButton';
+
 import {
     Nav,
     NavLogo,
@@ -16,30 +21,54 @@ const Navbar = () => {
         <>
         
       <Nav>
-      <NavLogo to="/">
-      <img src={logo} width="390" height="230" class="homelogo"></img>
-            </NavLogo>
-           <Bars />
+      <Bars />
             <NavMenu>
+      <NavLink id="logo" to="/" activeStyle>
+      <img src={logo}  width="390" height="230" ></img>
+      </NavLink>
+            
+           
+           <div className="navigation">
                 <NavLink to="/" activestyle>
                     Home
                 </NavLink>
+                
                 <NavLink to="/about" activestyle>
                     About
                 </NavLink>
+                
                 <NavLink to="/services" activestyle>
                     Services
                 </NavLink>
+                
                 <NavLink to="/projects" activestyle>
                     Projects
                 </NavLink>
+                
                 <NavLink to="/contact" activestyle>
                     Contact
                 </NavLink>
-                <NavBtn>
-                    <NavBtnLink to="/sign-up">Sign Up</NavBtnLink>                
-                </NavBtn>
+                </div>
+                   
             </NavMenu>
+            
+            <div class="icons">
+            <IconButton aria-label="instagram.com" onClick={() => window.open('https://www.instagram.com/dtomp7/')}>
+                     <InstagramIcon fontSize="large"/>
+                    </IconButton>                
+                    
+                    <IconButton aria-label="twitter.com" onClick={() => window.open('https://twitter.com/TomTerrificLOL')}>
+                     <TwitterIcon fontSize="large"/>
+                    </IconButton>                 
+                    
+                    <IconButton aria-label="Linkedin.com" onClick={() => window.open('https://www.linkedin.com/in/dilantompkins/')}>
+                     <LinkedInIcon fontSize="large" />
+                    </IconButton>                
+                    
+                    <IconButton aria-label="github.com" onClick={() => window.open('https://github.com/TomTerrific7')}>
+                     <GitHubIcon fontSize="large"/>
+                    </IconButton> 
+                    </div>
         </Nav>
         </>
         

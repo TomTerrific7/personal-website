@@ -5,25 +5,21 @@ import styled from "styled-components";
 export const Nav = styled.nav`
     background:#74EBD5;
     height: 100px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.2rem calc((100vw - 1000px) / 2);
     z-index: 12;
+    
 `;
-export const NavLogo = styled(Link)`
-display: inline-block;
-text-align: left;
-padding:  rem;
-height: 200px;
 
-
-`;
 
 export const NavLink = styled(Link)`
 color: black;
 display: flex;
 align-items: center;
+
 text-decoration: none;
 padding: 0 1rem;
 height: 100%;
@@ -63,8 +59,9 @@ export const NavMenu = styled.div`
 
 export const NavBtn = styled.nav`
   display: flex;
-  align-items: center;
-  margin-right: 24px;
+  align-items: right;
+  margin-right: 10px;
+  padding-right: 70px;
   
 
   @media screen and (max-width: 768px) {

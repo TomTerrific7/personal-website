@@ -1,8 +1,8 @@
 import React from 'react';
-import {Button, Typography, ThemeProvider, createTheme, Container} from '@material-ui/core';
+import { Typography, ThemeProvider, createTheme} from '@material-ui/core';
 
 import {makeStyles} from '@material-ui/core/styles';
-import { FaThinkPeaks } from 'react-icons/fa';
+
 
 const theme = createTheme({
   palette: {

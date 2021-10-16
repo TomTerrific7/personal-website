@@ -1,8 +1,8 @@
 import React from "react";
 
-const About = () => {
+const Projects = () => {
     return (
-        <div class="about"
+        <div class="projects"
             style={{
                 display: 'flex',
                 justifyContent: 'center',
@@ -11,9 +11,9 @@ const About = () => {
                 
             }}
         >
-            <h1>Write about me</h1>
+            <h1>Create a Projects Page</h1>
         </div>
     );
 };
 
-export default About;
+export default Projects;
