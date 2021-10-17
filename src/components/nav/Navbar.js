@@ -17,12 +17,14 @@ import {
 } from "./NavbarElements"
 
 const Navbar = () => {
+    
+
     return (
         <>
         
-      <Nav>
+      <Nav >
       <Bars />
-            <NavMenu>
+            <NavMenu >
       <NavLink id="logo" to="/" activeStyle>
       <img src={logo}  width="390" height="230" ></img>
       </NavLink>

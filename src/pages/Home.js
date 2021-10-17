@@ -66,6 +66,8 @@ function Home() {
         
           
           <br />
+          <br/>
+          <br/>
           
           
           <Typography>
@@ -74,6 +76,7 @@ function Home() {
         <Typography variant="h3"> I think of myself as a creator. I love to start from scratch,<br/> whether it be developing a personal website, a smart contract, or<br/>even cooking a delicious meal, as the results are much more enjoyable.<br/><br/><br/>A few of my core values are honesty, inclusion, personal development,<br/> generosity, and humanity as a whole. I let these ideals guide me in whatever <br/>circumstances life may bring.  </Typography>
         <br/><br/>
         <hr color="black" size="1" width="700" align="left"></hr>
+        
       
       </ThemeProvider>
       </div>

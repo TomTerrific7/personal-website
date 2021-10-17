@@ -20,11 +20,25 @@
   background: linear-gradient(#74EBD5, #9FACE6);
 }
 .about{
-  font-Family: 'Noto Sans Mono'; 
-  vertical-align: text-top;             
+  display:flex;
+  font-Family: 'Noto Sans Mono';             
   background: linear-gradient(#74EBD5, #9FACE6);
- 
-                
+  padding-left: 75px;
+  font-size: 22;
+  font-weight: 800 ;
+              
+}
+.location{
+  position: absolute;
+  left: 50px;
+  width: 400px;
+  font-size: 22;
+  border-left: 3px solid rgb(148, 59, 221);
+  border-top: 3px solid rgb(148, 59, 221);
+  padding: 10px;
+  height: 45%;
+  
+  
 }
 .projects{
   height: 100vh ;
@@ -46,8 +60,8 @@
   
 } 
 .navigation{
+  position:fixed;
   height: 100px;
-    
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,7 +74,12 @@
 	top:5; 
 	right:0; 
 }
-
+body {
+  text-align: center;
+  background: #fcfcfa;
+  color: #818078;
+  font-family: Futura, sans-serif;
+}
 
 
 

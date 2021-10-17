@@ -16,7 +16,7 @@ export const Nav = styled.nav`
 
 
 export const NavLink = styled(Link)`
-color: black;
+color: #818078;
 display: flex;
 align-items: center;
 
@@ -25,10 +25,10 @@ padding: 0 1rem;
 height: 100%;
 cursor: pointer;
 &.active {
-  color:black;
+  color:#818078;
 }
 &:hover {
-  color: black;
+  color: #c5c3b3;
 }
 `;
 
