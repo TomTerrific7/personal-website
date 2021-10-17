@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 
-
+.App {
+ 
+  padding-left: 75px;
+  text-align: left;
+  background: linear-gradient(#74EBD5 1%, #9FACE6); 
+}
 
 .emailform {
   height: 100vh ;
@@ -20,36 +25,74 @@
   background: linear-gradient(#74EBD5, #9FACE6);
 }
 .about{
-  display:flex;
+  
+  
   font-Family: 'Noto Sans Mono';             
   background: linear-gradient(#74EBD5, #9FACE6);
-  padding-left: 75px;
+ 
   font-size: 22;
   font-weight: 800 ;
-              
 }
-.location{
+
+.hobbies{
   position: absolute;
-  left: 50px;
+  
+  width: 10px;
+  font-size: 22;
+  border-right: 2px solid rgb(148, 59, 221);
+  border-bottom: 2px solid rgb(148, 59, 221);
+  padding: 10px;
+  height: 25%; 
+  padding-right: 430px;
+  bottom:20%;
+  right: 350px;
+  
+}
+.general{
+  position: absolute;
+  left: 30px;
   width: 400px;
   font-size: 22;
-  border-left: 3px solid rgb(148, 59, 221);
-  border-top: 3px solid rgb(148, 59, 221);
+  border-left: 2px solid rgb(148, 59, 221);
+  border-top: 2px solid rgb(148, 59, 221);
   padding: 10px;
-  height: 45%;
+  height: 35%;  
+
+}
+
+.education{
+  position: absolute;
   
+  width: 10px;
+  font-size: 22;
+  border-right: 2px solid rgb(148, 59, 221);
+  border-bottom: 2px solid rgb(148, 59, 221);
+  padding: 10px;
+  height: 35%; 
+  padding-right: 360px;
+  bottom:10%;
+  left: 50px;
+  
+}
+.skills{
+  position: absolute;
+  
+  width: 10px;
+  font-size: 22;
+  border-left: 2px solid rgb(148, 59, 221);
+  border-bottom: 2px solid rgb(148, 59, 221);
+  padding: 10px;
+  height: 30%; 
+  padding-right: 360px;
+  top:25;
+  right: 400px;
   
 }
 .projects{
   height: 100vh ;
   background: linear-gradient(#74EBD5, #9FACE6);
 }
-.homepage {
-  position:relative;
-  padding-left: 75px;
-  text-align: left;
-  background: linear-gradient(#74EBD5 1%, #9FACE6); 
-}
+
 .br{
   background: linear-gradient(#74EBD5, #9FACE6);
 }
@@ -60,7 +103,7 @@
   
 } 
 .navigation{
-  position:fixed;
+  position:relative;
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -78,7 +121,7 @@ body {
   text-align: center;
   background: #fcfcfa;
   color: #818078;
-  font-family: Futura, sans-serif;
+  
 }
 
 

@@ -27,7 +27,7 @@ const theme = createTheme({
     h3: {
       fontFamily: 'Source Code Pro',
       fontWeightLight: 200,
-      fontSize:14,
+      fontSize:16,
     }
   },
   
@@ -55,7 +55,7 @@ function Home() {
     
     
     
-      <div class="homepage" style={{ position: 'relative', overflow: "hidden"}}>
+      <div class="App" style={{ position: 'relative', overflow: "hidden"}}>
       <div style={{ position: 'absolute'}}>
         <Particles height="100vh" width="100vw" params={particlesConfig} />
       </div>
