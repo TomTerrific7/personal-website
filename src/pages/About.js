@@ -29,7 +29,7 @@ const About = () => {
                 <h2>Skills
                 <hr color="black" size="2" width="200" align="center"></hr>
                 </h2>
-                <Typography variant="h3" >React Solidity </Typography>
+                <Typography variant="h3" >React&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub Solidity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finance JavaScript&nbsp;&nbsp;&nbsp;Mac&nbsp;Os HTML&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chainlink CSS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IPFS Hardhat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contract&nbsp;Deployment Ethers.js</Typography>
                 </div>
                 <div className="education">
                 <h2>Education
