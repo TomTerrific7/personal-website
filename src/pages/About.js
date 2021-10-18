@@ -15,27 +15,27 @@ const About = () => {
                 <h2>About Me
                 <hr color="black" size="2" width="200" align="center"></hr>
                 </h2>
-                <Typography variant="h3">I am married to my best friend Katie and we have a dog named Snacks. He is a German Shorthaired Pointer. I have only been a developer for a year, as I was previously a personal trainer for 4 years in Denver, Colorado. We moved from Denver to Atlanta right when Covid happened, and that is when I decided to dedicate all of my time to development. </Typography>
+                <h4>I am married to my best friend Katie and we have a dog named Snacks. He is a German Shorthaired Pointer. I have only been a developer for a year, as I was previously a personal trainer for 4 years in Denver, Colorado. We moved from Denver to Atlanta right when Covid happened, and that is when I decided to dedicate all of my time to development. </h4>
                 </div>
                 
                 <div className="hobbies">
                 <h2>Hobbies
                 <hr color="black" size="2" width="200" align="center"></hr>
                 </h2>
-                <Typography variant="h3">Cooking,&nbsp;Travel,&nbsp;Gaming,&nbsp;Reading,&nbsp;Coding, Gym,&nbsp;Sports&nbsp;Investing,&nbsp;French&nbsp;Language</Typography>
+                <h4>Cooking,&nbsp;Travel,&nbsp;Gaming,&nbsp;Reading,&nbsp;Coding, Gym,&nbsp;Sports&nbsp;Investing,&nbsp;French&nbsp;Language</h4>
                 </div>
 
                 <div className="skills">
                 <h2>Skills
                 <hr color="black" size="2" width="200" align="center"></hr>
                 </h2>
-                <Typography variant="h3" >React&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub Solidity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finance JavaScript&nbsp;&nbsp;&nbsp;Mac&nbsp;Os HTML&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chainlink CSS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IPFS Hardhat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contract&nbsp;Deployment Ethers.js</Typography>
+                <h4>React, GitHub, Solidity, Finance, JavaScript, MacOs, HTML, Chainlink, CSS, IPFS, Hardhat, OpenZeppelin, Contract Deployment, Ethers.js</h4>
                 </div>
                 <div className="education">
                 <h2>Education
                 <hr color="black" size="2" width="200" align="center"></hr>
                 </h2>
-                <Typography variant="h3" >Purdue&nbsp;University&nbsp;Global B.S&nbsp;in&nbsp;Cybersecurity<br/><br/>Chainshot&nbsp;Ethereum&nbsp;Developer&nbsp;Bootcamp Certified&nbsp;Ethereum&nbsp;Developer</Typography>
+                <h4>Purdue&nbsp;University&nbsp;Global B.S&nbsp;in&nbsp;Cybersecurity<br/><br/>Chainshot&nbsp;Ethereum&nbsp;Developer&nbsp;Bootcamp Certified&nbsp;Ethereum&nbsp;Developer</h4>
                 </div>
                 
                 

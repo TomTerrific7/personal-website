@@ -22,9 +22,11 @@ function App() {
 
     
     
-    <Router class="App" style={{ position: 'relative', overflow: "hidden"}}>
+    <Router>
+      
     
       <Navbar/>
+      <Typography>
       
          <Switch>
           <Route path='/about' component ={About} />
@@ -39,7 +41,7 @@ function App() {
         </Switch>
         
         
-        
+        </Typography>
       
    
         

@@ -34,20 +34,7 @@
   font-weight: 800 ;
 }
 
-.hobbies{
-  position: absolute;
-  
-  width: 10px;
-  font-size: 22;
-  border-right: 2px solid rgb(148, 59, 221);
-  border-bottom: 2px solid rgb(148, 59, 221);
-  padding: 10px;
-  height: 25%; 
-  padding-right: 430px;
-  bottom:20%;
-  right: 350px;
-  
-}
+
 .general{
   position: absolute;
   left: 30px;
@@ -63,29 +50,42 @@
 .education{
   position: absolute;
   
+  width: 25px;
+  font-size: 22;
+  border-left: 2px solid rgb(148, 59, 221);
+ border-bottom: 2px solid rgb(148, 59, 221);
+  padding: 10px;
+  height: 30%; 
+  padding-right: 430px;
+  bottom:5%;
+  left: 30px;
+  
+}
+.hobbies{
+  position: absolute;
+  
   width: 10px;
   font-size: 22;
   border-right: 2px solid rgb(148, 59, 221);
   border-bottom: 2px solid rgb(148, 59, 221);
   padding: 10px;
-  height: 35%; 
-  padding-right: 360px;
-  bottom:10%;
-  left: 50px;
+  height: 25%; 
+  padding-right: 430px;
+  bottom:5%;
+  right: 50px;
   
 }
 .skills{
   position: absolute;
   
-  width: 10px;
+  width: 350px;
   font-size: 22;
-  border-left: 2px solid rgb(148, 59, 221);
-  border-bottom: 2px solid rgb(148, 59, 221);
+  border-right: 2px solid rgb(148, 59, 221);
+  border-top: 2px solid rgb(148, 59, 221);
   padding: 10px;
-  height: 30%; 
-  padding-right: 360px;
-  top:25;
-  right: 400px;
+  height: 35%; 
+  padding-right: 50px;
+  right: 50px;
   
 }
 .projects{
@@ -121,6 +121,7 @@ body {
   text-align: center;
   background: #fcfcfa;
   color: #818078;
+  
   
 }
 
