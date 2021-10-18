@@ -1,8 +1,10 @@
 import React from "react";
 import { Typography} from '@material-ui/core';
-
+import { useResizeDetector } from 'react-resize-detector';
 const About = () => {
+    
     return ( 
+        
         <div class="about"
             style={{
                 display: 'flex',
@@ -22,7 +24,7 @@ const About = () => {
                 <h2>Hobbies
                 <hr color="black" size="2" width="200" align="center"></hr>
                 </h2>
-                <h4>Cooking,&nbsp;Travel,&nbsp;Gaming,&nbsp;Reading,&nbsp;Coding, Gym,&nbsp;Sports&nbsp;Investing,&nbsp;French&nbsp;Language</h4>
+                <h4>Cooking,&nbsp;Travel,&nbsp;Gaming,&nbsp;Reading,&nbsp;Coding, Gym,&nbsp;Sports&nbsp;Investing,&nbsp;French&nbsp;Language, Golf </h4>
                 </div>
 
                 <div className="skills">

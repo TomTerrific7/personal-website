@@ -39,9 +39,6 @@ const Navbar = () => {
                     About
                 </NavLink>
                 
-                <NavLink to="/services" activestyle>
-                    Services
-                </NavLink>
                 
                 <NavLink to="/projects" activestyle>
                     Projects

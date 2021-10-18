@@ -17,6 +17,7 @@
    font-size: 22;   
       
 }
+
 .textbox{
   background:transparent;
 }
@@ -89,8 +90,11 @@
   
 }
 .projects{
-  height: 100vh ;
+  font-Family: 'Noto Sans Mono';             
   background: linear-gradient(#74EBD5, #9FACE6);
+ 
+  font-size: 22;
+  font-weight: 800 ;
 }
 
 .br{
