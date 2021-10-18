@@ -21,10 +21,7 @@
 .textbox{
   background:transparent;
 }
-.services{
-  height: 100vh ;
-  background: linear-gradient(#74EBD5, #9FACE6);
-}
+
 .about{
   
   
@@ -93,7 +90,7 @@
   font-Family: 'Noto Sans Mono';             
   background: linear-gradient(#74EBD5, #9FACE6);
  
-  font-size: 22;
+  font-size: 12;
   font-weight: 800 ;
 }
 
