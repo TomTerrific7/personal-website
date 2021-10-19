@@ -52,48 +52,10 @@
   overflow: auto;
 }
 
-.education{
-  position: absolute;
-  resize: "vertical";
-  overflow: "auto";
-  width: 25px;
-  font-size: 22;
-  border-left: 2px solid rgb(148, 59, 221);
- border-bottom: 2px solid rgb(148, 59, 221);
-  padding: 10px;
-  height: 30%; 
-  padding-right: 430px;
-  bottom:5%;
-  left: 30px;
-  
-}
-.hobbies{
-  position: absolute;
-  
-  width: 10px;
-  font-size: 22;
-  border-right: 2px solid rgb(148, 59, 221);
-  border-bottom: 2px solid rgb(148, 59, 221);
-  padding: 10px;
-  height: 25%; 
-  padding-right: 430px;
-  bottom:5%;
-  right: 50px;
-  
-}
-.skills{
-  position: absolute;
 
-  width: 350px;
-  font-size: 22;
-  border-right: 2px solid rgb(148, 59, 221);
-  border-top: 2px solid rgb(148, 59, 221);
-  padding: 10px;
-  height: 35%; 
-  padding-right: 50px;
-  right: 50px;
   
-}
+
+
 .projects{
   font-Family: 'Noto Sans Mono';             
   background: linear-gradient(#74EBD5, #9FACE6);
@@ -106,26 +68,21 @@
 .br{
   background: linear-gradient(#74EBD5, #9FACE6);
 }
-#logo{ 
-	position:fixed; 
+.logo{ 
+  position:relative; 
 	top: 5; 
 	left:0; 
+
+  
   
 } 
-.navigation{
-  position:relative;
-  height: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.2rem calc((100vw - 1000px) / 2);
-  z-index: 12;
-}
+
 
 .icons{
   position:fixed; 
 	top:5; 
-	right:0; 
+  right:0;
+	
 }
 body {
   text-align: center;

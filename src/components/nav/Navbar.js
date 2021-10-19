@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './newLogo.png'
+import logo from './newestLogo.png'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -25,12 +25,12 @@ const Navbar = () => {
       <Nav >
       <Bars />
             <NavMenu >
-      <NavLink id="logo" to="/" activeStyle>
-      <img src={logo}  width="390" height="230" ></img>
+      <NavLink className="logo" to="/" activeStyle>
+      <img src={logo}  width="320" height="100" ></img>
       </NavLink>
             
+    
            
-           <div className="navigation">
                 <NavLink to="/" activestyle>
                     Home
                 </NavLink>
@@ -47,7 +47,7 @@ const Navbar = () => {
                 <NavLink to="/contact" activestyle>
                     Contact
                 </NavLink>
-                </div>
+               
                    
             </NavMenu>
             
