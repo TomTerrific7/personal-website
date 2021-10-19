@@ -11,6 +11,8 @@ export const Nav = styled.nav`
     align-items: center;
     padding: 0.2rem calc((100vw - 1000px) / 2);
     z-index: 12;
+    resize: both;
+  overflow: auto;
     
 `;
 

@@ -55,7 +55,7 @@ function Home() {
     
     
     
-      <div class="App" style={{ position: 'relative', overflow: "hidden"}}>
+      <div class="App" style={{ position: 'relative'}}>
       <div style={{ position: 'absolute'}}>
         <Particles height="100vh" width="100vw" params={particlesConfig} />
       </div>

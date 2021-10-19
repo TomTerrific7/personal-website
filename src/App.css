@@ -6,6 +6,8 @@
   padding-left: 75px;
   text-align: left;
   background: linear-gradient(#74EBD5 1%, #9FACE6); 
+  
+  
 }
 
 .emailform {
@@ -15,6 +17,8 @@
   font-Family: 'Noto Sans Mono';
   font-weight: 200 ;
    font-size: 22;   
+   resize: both;
+  overflow: auto;
       
 }
 
@@ -23,18 +27,21 @@
 }
 
 .about{
-  
+ 
   
   font-Family: 'Noto Sans Mono';             
   background: linear-gradient(#74EBD5, #9FACE6);
- 
-  font-size: 22;
+  resize: both;
+  overflow: auto;
+  font-size: 12;
   font-weight: 800 ;
 }
 
 
 .general{
   position: absolute;
+  resize: "vertical";
+  overflow: "auto";
   left: 30px;
   width: 400px;
   font-size: 22;
@@ -42,12 +49,13 @@
   border-top: 2px solid rgb(148, 59, 221);
   padding: 10px;
   height: 35%;  
-
+  overflow: auto;
 }
 
 .education{
   position: absolute;
-  
+  resize: "vertical";
+  overflow: "auto";
   width: 25px;
   font-size: 22;
   border-left: 2px solid rgb(148, 59, 221);
@@ -75,7 +83,7 @@
 }
 .skills{
   position: absolute;
-  
+
   width: 350px;
   font-size: 22;
   border-right: 2px solid rgb(148, 59, 221);
@@ -89,7 +97,8 @@
 .projects{
   font-Family: 'Noto Sans Mono';             
   background: linear-gradient(#74EBD5, #9FACE6);
- 
+  resize: both;
+  overflow: auto;
   font-size: 12;
   font-weight: 800 ;
 }

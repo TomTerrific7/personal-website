@@ -1,46 +1,44 @@
 import React from "react";
-import { Typography} from '@material-ui/core';
-import { useResizeDetector } from 'react-resize-detector';
+import pic from './testpic.png'
+
 const About = () => {
     
     return ( 
         
         <div class="about"
+        
             style={{
-                display: 'flex',
-                
+                display: 'absolute',
+                justifyContent: 'left',
                 verticalAlign: 'text-top',
-                height: '100vh',
+                height: '100vh'
+                
                 
             }}>
-                <div className="general">
-                <h2>About Me
-                <hr color="black" size="2" width="200" align="center"></hr>
-                </h2>
-                <h4>I am married to my best friend Katie and we have a dog named Snacks. He is a German Shorthaired Pointer. I have only been a developer for a year, as I was previously a personal trainer for 4 years in Denver, Colorado. We moved from Denver to Atlanta right when Covid happened, and that is when I decided to dedicate all of my time to development. </h4>
-                </div>
+               
                 
-                <div className="hobbies">
-                <h2>Hobbies
-                <hr color="black" size="2" width="200" align="center"></hr>
-                </h2>
-                <h4>Cooking,&nbsp;Travel,&nbsp;Gaming,&nbsp;Reading,&nbsp;Coding, Gym,&nbsp;Sports&nbsp;Investing,&nbsp;French&nbsp;Language, Golf </h4>
-                </div>
+               <h2 align="center">About Me
+               <hr color="black" size="2" width="200" align="center"></hr>
+               <h6>I am married to my best friend Katie and we have a dog named Snacks. He is a German Shorthaired Pointer. I have only been a developer for a year, as I was previously a personal trainer for 4 years in Denver, Colorado. We moved from Denver to Atlanta right when Covid happened, and that is when I decided to dedicate all of my time to development.
+</h6>
+</h2>
+<h2 align="center">Education
+               <hr color="black" size="2" width="200" align="center"></hr>
+               <h6>Purdue University Global<br/>B.S in Cybersecurity<br/><br/>Chainshot  Ethereum Developer Bootcamp<br/>Certified Ethereum Developer
+</h6>
+</h2>
 
-                <div className="skills">
-                <h2>Skills
-                <hr color="black" size="2" width="200" align="center"></hr>
-                </h2>
-                <h4>React, GitHub, Solidity, Finance, JavaScript, MacOs, HTML, Chainlink, CSS, IPFS, Hardhat, OpenZeppelin, Contract Deployment, Ethers.js</h4>
-                </div>
-                <div className="education">
-                <h2>Education
-                <hr color="black" size="2" width="200" align="center"></hr>
-                </h2>
-                <h4>Purdue&nbsp;University&nbsp;Global B.S&nbsp;in&nbsp;Cybersecurity<br/><br/>Chainshot&nbsp;Ethereum&nbsp;Developer&nbsp;Bootcamp Certified&nbsp;Ethereum&nbsp;Developer</h4>
-                </div>
-                
-                
+<h2 align="center">Skills
+               <hr color="black" size="2" width="200" align="center"></hr>
+               <h6>React, GitHub, Solidity, Finance, JavaScript, MacOs, HTML, Chainlink, CSS, IPFS, Hardhat, OpenZeppelin, Contract Deployment, Ethers.js
+</h6>
+</h2>
+<h2 align="center">Hobbies
+               <hr color="black" size="2" width="200" align="center"></hr>
+               <h6>Cooking,&nbsp;Travel,&nbsp;Gaming,&nbsp;Reading,&nbsp;Coding, Gym,&nbsp;Sports&nbsp;Investing,&nbsp;French&nbsp;Language, Golf
+</h6>
+</h2>
+           
                 
             
         </div>
