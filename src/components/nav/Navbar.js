@@ -66,7 +66,7 @@ const Navbar = () => {
                     
                     <IconButton aria-label="github.com" onClick={() => window.open('https://github.com/TomTerrific7')}>
                      <GitHubIcon fontSize="large"/>
-                    </IconButton> 
+                    </IconButton> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
         </Nav>
         </>
