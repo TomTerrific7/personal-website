@@ -30,12 +30,12 @@ const About = () => {
 
 <h2 align="center">Skills
                <hr color="black" size="2" width="200" align="center"></hr>
-               <h6>React, GitHub, Solidity, Finance, JavaScript, MacOs, HTML, Chainlink, CSS, IPFS, Hardhat, OpenZeppelin, Contract Deployment, Ethers.js
+               <h6>React, GitHub, Solidity, Finance, JavaScript, MacOs, HTML, Chainlink, CSS, IPFS, Hardhat, OpenZeppelin, Contract Deployment, Ethers.js, AWS Amplify.
 </h6>
 </h2>
 <h2 align="center">Hobbies
                <hr color="black" size="2" width="200" align="center"></hr>
-               <h6>Cooking,&nbsp;Travel,&nbsp;Gaming,&nbsp;Reading,&nbsp;Coding, Gym,&nbsp;Sports&nbsp;Investing,&nbsp;French&nbsp;Language, Golf
+               <h6>Cooking,&nbsp;Travel,&nbsp;Gaming,&nbsp;Reading,&nbsp;Coding, Gym,&nbsp;Sports&nbsp;Investing,&nbsp;French&nbsp;Language, Golf.
 </h6>
 </h2>
            
